@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+    padding: 30px;
+    background-color: seagreen;
+    border: 5px solid rgb(8, 247, 223);
+    text-align:center;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color:seagreen;
+    border: 2px solid rgb(8, 243, 227);
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: seagreen;
+    border:1px rgb(10, 248, 228);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    color:rgb(11, 124, 58)
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+article{
+    list-style: none;
+    text-align: left;
+    background-color: seagreen;
+    border: 3px solid rgb(9, 236, 240);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/*Change color the link color on hover*/
+nav ul li a:hover {
+    background-color: springgreen;
+    color: teal;
+}
